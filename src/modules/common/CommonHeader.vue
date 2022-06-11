@@ -2,93 +2,30 @@
 <header id="header" class="header header-main d-flex align-items-center header-2">
     <div class="container">        
         <div class="row">
-            <!--Logo / Menu Toggle-->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 align-self-center justify-content-start d-flex">
-                <!--Mobile Toggle-->
-                <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open me-3 d-lg-none"><i class="icon an an-times-l"></i><i class="icon an an-bars-l"></i></button>
-                <!--End Mobile Toggle-->
-                <!--Logo-->
-                <div class="logo"><a href="index.html"><img class="logo-img mh-100" src="assets/images/logo-demo2.png" alt="Optimal Multipurpose eCommerce Bootstrap 5 Html Template" title="Optimal Multipurpose eCommerce Bootstrap 5 Html Template" width="140" /><span class="logo-txt d-none">Optimal</span></a></div>
-                <!--End Logo-->
+                <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open me-3 d-lg-none"><i class="icon fa fa-times"></i><i class="icon fa fa-bars"></i></button>
+                <div class="logo"><router-link to="/"><img class="logo-img mh-100" src="/assets/images/logo-demo2.png" alt="Optimal Multipurpose eCommerce Bootstrap 5 Html Template" title="La Able Fashion " width="140" /><span class="logo-txt d-none">La Able Fashion</span></router-link></div>
             </div>
-            <!--End Logo / Menu Toggle-->
-            <!--Main Navigation Desktop-->
             <div class="col-1 col-sm-1 col-md-1 col-lg-6 align-self-center d-menu-col">
-                <!--Desktop Menu-->
                 <div class="row">
                     <div class="col-1 col-sm-12 col-md-12 col-lg-12 align-self-center d-menu-col">
-                        <!--Desktop Menu-->
                         <nav class="grid__item" id="AccessibleNav">
                             <ul id="siteNav" class="site-nav medium center hidearrow">
-                                <li class="lvl1 parent megamenu"><a href="#;">Home <i class="an an-angle-down-l"></i></a>
-                                    <div class="megamenu style1">
+                                <li class="lvl1"><router-link to="/">Home </router-link></li>
+                                <li class="lvl1 parent megamenu"><a href="#;">Men <i class="an an-angle-down-l"></i></a>
+                                    <div class="megamenu style4">
                                         <div class="row">
-                                            <div class="col-md-8 col-lg-8">
-                                                <div class="row">
-                                                    <div class="lvl-1 col-md-5 col-lg-4">
-                                                        <a href="#" class="site-nav lvl-1 menu-title">Home Styles</a>
-                                                        <ul class="subLinks">
-                                                            <li class="lvl-2"><a href="index.html" class="site-nav lvl-2">Home 01 - Default</a></li>
-                                                            <li class="lvl-2"><a href="index-demo2.html" class="site-nav lvl-2">Home 02 - Minimal</a></li>
-                                                            <li class="lvl-2"><a href="index-demo3.html" class="site-nav lvl-2">Home 03 - Colorful</a></li>
-                                                            <li class="lvl-2"><a href="index-demo4.html" class="site-nav lvl-2">Home 04 - Modern</a></li>
-                                                            <li class="lvl-2"><a href="index-demo5.html" class="site-nav lvl-2">Home 05 - Kids Clothing</a></li>
-                                                            <li class="lvl-2"><a href="index-demo6.html" class="site-nav lvl-2">Home 06 - Single Product</a></li>
-                                                            <li class="lvl-2"><a href="index-demo7.html" class="site-nav lvl-2">Home 07 - Glamour</a></li>
-                                                            <li class="lvl-2"><a href="index-demo8.html" class="site-nav lvl-2">Home 08 - Simple</a></li>
-                                                            <li class="lvl-2"><a href="index-demo9.html" class="site-nav lvl-2">Home 09 - Cool <span class="lbl nm_label1">Hot</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo10.html" class="site-nav lvl-2">Home 10 - Cosmetic</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="lvl-1 col-md-5 col-lg-4">
-                                                        <a href="#" class="site-nav lvl-1 menu-title">Home Styles</a>
-                                                        <ul class="subLinks">
-                                                            <li class="lvl-2"><a href="index-demo11.html" class="site-nav lvl-2">Home 11 - Pets <span class="lbl nm_label3">Popular</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo12.html" class="site-nav lvl-2">Home 12 - Tools & Parts</a></li>
-                                                            <li class="lvl-2"><a href="index-demo13.html" class="site-nav lvl-2">Home 13 - Watches <span class="lbl nm_label1">Hot</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo14.html" class="site-nav lvl-2">Home 14 - Food</a></li>
-                                                            <li class="lvl-2"><a href="index-demo15.html" class="site-nav lvl-2">Home 15 - Christmas</a></li>
-                                                            <li class="lvl-2"><a href="index-demo16.html" class="site-nav lvl-2">Home 16 - Phone Case</a></li>
-                                                            <li class="lvl-2"><a href="index-demo17.html" class="site-nav lvl-2">Home 17 - Jewelry</a></li>
-                                                            <li class="lvl-2"><a href="index-demo18.html" class="site-nav lvl-2">Home 18 - Bag <span class="lbl nm_label3">Popular</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo19.html" class="site-nav lvl-2">Home 19 - Swimwear</a></li>
-                                                            <li class="lvl-2"><a href="index-demo20.html" class="site-nav lvl-2">Home 20 - Furniture <span class="lbl nm_label2">New</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="lvl-1 col-md-5 col-lg-4">
-                                                        <a href="#" class="site-nav lvl-1 menu-title">Home Styles</a>
-                                                        <ul class="subLinks">
-                                                            <li class="lvl-2"><a href="index-demo21.html" class="site-nav lvl-2">Home 21 - Party Supplies <span class="lbl nm_label2">New</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo22.html" class="site-nav lvl-2">Home 22 - Digital <span class="lbl nm_label2">New</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo23.html" class="site-nav lvl-2">Home 23 - Vogue <span class="lbl nm_label2">New</span></a></li>
-                                                            <li class="lvl-2"><a href="index-demo24.html" class="site-nav lvl-2">Home 24 - Glamour <span class="lbl nm_label2">New</span></a></li>
-                                                        </ul>
-
-                                                        <div class="row mm-Banners mt-3">
-                                                            <div class="col-md-12 col-lg-12 imageCol text-center">
-                                                                <div class="menubox position-relative">
-                                                                    <a href="index-demo5.html" class="mb-0"><img class="blur-up lazyload" src="assets/images/megamenu/megamenu-banner7.png" data-src="assets/images/megamenu/megamenu-banner7.png" alt="image"/></a>
-                                                                    <p class="position-absolute bottom-0 start-50 translate-middle-x"><a href="index-demo5.html" class="title text-uppercase mb-3">Kids Store</a></p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 col-lg-4">
-                                                <div class="row mm-Banners">
-                                                    <div class="col-md-12 col-lg-12 imageCol text-center">
-                                                        <div class="menubox position-relative">
-                                                            <a href="index-demo6.html" class="mb-0"><img class="blur-up lazyload" src="assets/images/megamenu/megamenu-banner8.png" data-src="assets/images/megamenu/megamenu-banner8.png" alt="image"/></a>
-                                                            <p class="position-absolute bottom-0 start-50 translate-middle-x"><a href="index-demo6.html" class="title text-uppercase">Single Product Layout</a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            {{men_categories}}
+                                            <div class="lvl-1 col-md-3 col-lg-3" v-for="men in men_categories" :key="men.id">
+                                                <router-link :to="'/shop/category/'+men.id" class="site-nav lvl-1 menu-title">{{men.title}}</router-link>
+                                                <ul class="subLinks">
+                                                    <li v-for="sub in men.subs" :key="sub.id" class="lvl-2"><a href="category-2columns.html" class="site-nav lvl-2">{{sub.title}}</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="lvl1 parent megamenu"><a href="#;">Shop <i class="an an-angle-down-l"></i></a>
+                                <li class="lvl1 parent megamenu"><a href="#;">Men <i class="an an-angle-down-l"></i></a>
                                     <div class="megamenu style4">
                                         <div class="row">
                                             <div class="lvl-1 col-md-3 col-lg-3"><a href="#" class="site-nav lvl-1 menu-title">Category Page</a>
@@ -144,16 +81,16 @@
                                         </div>
                                         <div class="row clear mt-4">
                                             <div class="col-md-3 col-lg-3">
-                                                <a href="shop-left-sidebar.html"><img src="assets/images/megamenu/megamenu-banner4-1.jpg" data-src="assets/images/megamenu/megamenu-banner4-1.jpg" alt="image"/></a>
+                                                <a href="shop-left-sidebar.html"><img src="/assets/images/megamenu/megamenu-banner4-1.jpg" data-src="/assets/images/megamenu/megamenu-banner4-1.jpg" alt="image"/></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
-                                                <a href="shop-left-sidebar.html"><img src="assets/images/megamenu/megamenu-banner4-2.jpg" data-src="assets/images/megamenu/megamenu-banner4-2.jpg" alt="image"/></a>
+                                                <a href="shop-left-sidebar.html"><img src="/assets/images/megamenu/megamenu-banner4-2.jpg" data-src="/assets/images/megamenu/megamenu-banner4-2.jpg" alt="image"/></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
-                                                <a href="shop-left-sidebar.html"><img src="assets/images/megamenu/megamenu-banner4-3.jpg" data-src="assets/images/megamenu/megamenu-banner4-3.jpg" alt="image"/></a>
+                                                <a href="shop-left-sidebar.html"><img src="/assets/images/megamenu/megamenu-banner4-3.jpg" data-src="/assets/images/megamenu/megamenu-banner4-3.jpg" alt="image"/></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
-                                                <a href="shop-left-sidebar.html"><img src="assets/images/megamenu/megamenu-banner4-4.jpg" data-src="assets/images/megamenu/megamenu-banner4-4.jpg" alt="image"/></a>
+                                                <a href="shop-left-sidebar.html"><img src="/assets/images/megamenu/megamenu-banner4-4.jpg" data-src="/assets/images/megamenu/megamenu-banner4-4.jpg" alt="image"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -191,18 +128,18 @@
                                             </div>
                                             <div class="lvl-1 col-md-3 col-lg-3"><a href="#" class="site-nav lvl-1 menu-title">Top Brands</a>
                                                 <div class="menu-brand-logo">
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo1.png" alt="image"/></a>
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo2.png" alt="image"/></a>
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo3.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo1.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo2.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo3.png" alt="image"/></a>
                                                 </div>
                                                 <div class="menu-brand-logo">
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo4.png" alt="image"/></a>
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo5.png" alt="image"/></a>
-                                                    <a href="brands-style2.html"><img src="assets/images/logo/brandlogo6.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo4.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo5.png" alt="image"/></a>
+                                                    <a href="brands-style2.html"><img src="/assets/images/logo/brandlogo6.png" alt="image"/></a>
                                                 </div>
                                             </div>
                                             <div class="lvl-1 col-md-3 col-lg-3 p-0">
-                                                <a href="shop-left-sidebar.html"><img src="assets/images/megamenu/megamenu-banner3.jpg" alt="image"/></a>
+                                                <a href="shop-left-sidebar.html"><img src="/assets/images/megamenu/megamenu-banner3.jpg" alt="image"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -301,13 +238,13 @@
             <!--Right Action-->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 align-self-center icons-col text-right d-flex justify-content-end">
                 <!--Search-->
-                <div class="site-search iconset"><i class="icon an an-search-l"></i><span class="tooltip-label">Search</span></div>
+                <div class="site-search iconset"><i class="icon fa fa-search"></i><span class="tooltip-label">Search</span></div>
                 <!--End Search-->
                 <!--Wishlist-->
-                <div class="wishlist-link iconset"><a href="my-wishlist.html"><i class="icon an an-heart-l"></i><span class="wishlist-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">0</span><span class="tooltip-label">Wishlist</span></a></div>
+                <div class="wishlist-link iconset"><a href="my-wishlist.html"><i class="icon fa fa-heart"></i><span class="wishlist-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">0</span><span class="tooltip-label">Wishlist</span></a></div>
                 <!--End Wishlist-->
                 <!--Setting Dropdown-->
-                <div class="user-link iconset"><i class="icon an an-user-2"></i><span class="tooltip-label">Account</span></div>
+                <div class="user-link iconset"><i class="icon fa fa-user-circle"></i><span class="tooltip-label">Account</span></div>
                 <div id="userLinks">
                     <ul class="user-links">
                         <li><a href="login.html">Login</a></li>
@@ -316,16 +253,12 @@
                         <li><a href="compare-style1.html">Compare</a></li>
                     </ul>
                 </div>
-                <!--End Setting Dropdown-->
-                <!--Minicart Drawer-->
                 <div class="header-cart iconset">
                     <a href="#" class="site-header__cart btn-minicart" data-bs-toggle="modal" data-bs-target="#minicart-drawer">
-                        <i class="icon an an-cart-l"></i><span class="site-cart-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">2</span><span class="tooltip-label">Cart</span>
+                        <i class="icon fa fa-cart"></i><span class="site-cart-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">2</span><span class="tooltip-label">Cart</span>
                     </a>
                 </div>
-                <!--End Minicart Drawer-->
-                <!--Setting Dropdown-->
-                <div class="setting-link iconset pe-0"><i class="icon an an-right-bar-s"></i><span class="tooltip-label">Settings</span></div>
+                <div class="setting-link iconset pe-0"><i class="icon fa fa-right-bar-s"></i><span class="tooltip-label">Settings</span></div>
                 <div id="settingsBox">
                     <div class="currency-picker">
                         <span class="ttl">Select Currency</span>
@@ -340,12 +273,9 @@
                         </ul>
                     </div>
                 </div>
-                <!--End Setting Dropdown-->
             </div>
-            <!--End Right Action-->
         </div>
     </div>
-    <!--Search Popup-->
     <div id="search-popup" class="search-drawer">
         <div class="container">
             <span class="closeSearch an an-times-l"></span>
@@ -381,5 +311,31 @@
 </template>
 <script>
 export default {
+    data(){
+        return {
+            'men_categories': {},
+            'women_categories': {},
+            'kids_categories': {},
+        }
+    },
+    methods:{
+        getAllInitials(){
+            const axios = require('axios').default;
+            axios.get('http://localhost:8000/api/shop/categories/mega')
+            .then(response =>{
+                this.men_categories     = response.data.men;
+                this.women_categories   = response.data.women;
+                this.kid_categories   = response.data.kids;          
+
+            })
+            .catch(()=>{
+                this.$Progress.fail();
+                this.$toast.fire({ icon: 'error', title: 'Header not loaded successfully'});
+            });
+        },
+    },
+    mounted() {
+        this.getAllInitials();
+    },
 }
 </script>

@@ -2322,6 +2322,7 @@ a.quick-view:hover, a.wishlist:hover, .cartIcon:hover, .variants.add button:hove
 .grid-products .item .swatches li.medium { height:28px; width:28px; }
 .grid-products .item .swatches li.large { height:35px; width:35px; }
 .grid-products .item .swatches li.navy { background-color:navy; }
+.grid-products .item .swatches li.blue { background-color:blue; }
 .grid-products .item .swatches li.green { background-color:green; }
 .grid-products .item .swatches li.gray { background-color:gray; }
 .grid-products .item .swatches li.aqua { background-color:aqua; }

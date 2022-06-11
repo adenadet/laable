@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <CommonHeader></CommonHeader>
+    <CommonMobileHeader></CommonMobileHeader>
     <router-view></router-view>
     <CommonFooter></CommonFooter>
   </div>
 </template>
 <script>
-  import CommonHeader from "./modules/common/CommonHeader.vue";
-  import CommonFooter from "./modules/common/CommonFooter.vue";
+  import CommonMobileHeader from "./modules/common/CommonMobileHeader.vue";
+  import CommonHeader       from "./modules/common/CommonHeader.vue";
+  import CommonFooter       from "./modules/common/CommonFooter.vue";
 export default {
-  components:{CommonHeader, CommonFooter}
+  components:{CommonMobileHeader, CommonHeader, CommonFooter}
 }
 </script>
 
 <style lang="scss">
+@import 'vue-ssr-carousel/index.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

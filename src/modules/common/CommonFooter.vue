@@ -5,18 +5,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 footer-about mb-4 mb-lg-0">
-                    <img url="assets/images/ftr-logo-demo2.png" src="assets/images/ftr-logo-demo2.png" alt="Optimal" class="mb-3">
+                    <img url="assets/images/ftr-logo-demo2.png" src="/assets/images/ftr-logo-demo2.png" alt="Optimal" class="mb-3">
                     <p class="mb-1">Creative, flexible, Infinite Possibilities and High Performance Html template to make your business shine! Suitable for multipurpose stores.</p>
                     <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-2 footer-links">
                     <h4 class="h4">Informations</h4>
                     <ul>
-                        <li><a href="my-account.html">My Account</a></li>
-                        <li><a href="aboutus-style1.html">About us</a></li>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="privacy-policy.html">Privacy policy</a></li>
-                        <li><a href="#">Terms &amp; condition</a></li>
+                        <li><a href="/my-account">My Account</a></li>
+                        <li><a href="/aboutus">About us</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/privacy-policy">Privacy policy</a></li>
+                        <li><a href="/terms">Terms &amp; condition</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-2 footer-links">
@@ -63,8 +63,8 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 copyright-col mt-3 mt-md-4 mt-lg-5">
                     <div class="copytext mb-2 pb-1">&copy; 2022 Optimal. All Rights Reserved.</div>
-                    <p><a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms &amp; Conditions</a> &nbsp;|&nbsp; <a href="contact-style1.html">Contact Us</a></p>                                
-                    <img src="assets/images/payment.png" alt="Paypal Visa Payments">
+                    <p><a href="/privacy-policy">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms &amp; Conditions</a> &nbsp;|&nbsp; <a href="contact-style1.html">Contact Us</a></p>                                
+                    <img src="/assets/images/payment.png" alt="Paypal Visa Payments">
                 </div>
             </div>
         </div>
